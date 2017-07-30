@@ -1,0 +1,15 @@
+{
+  "name": "tellem",
+  "version": "1.0.0",
+  "description": "Alexa skill intent handler for creating and sending emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Symonds",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "request": "^2.81.0"
+  }
+}

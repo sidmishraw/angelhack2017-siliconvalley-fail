@@ -1,0 +1,55 @@
+head
+	script(type="text/javascript" src="/js/jquery-3.2.1.min.js")
+	script(type="text/javascript" src="/js/handler.js")
+
+body
+	h1 Tellem Registration
+
+	br
+	
+	form(method="POST" action="/firstTimeUser")
+
+		table
+			tr
+				td
+					label Email Id:
+				td
+					input(type="email" name="actualEmailId" id="actualEmailId")
+
+			tr
+				td
+					label Tellem Email ID:
+				td
+					input(type="text" name="bouncingEmail" id="bouncingEmail" readonly="readonly")
+					label @aymlab.com
+			tr
+				td
+					label First name:
+				td
+					input(type="text" name="firstname" id="firstname")
+			tr
+				td
+					label Last name:
+				td
+					input(type="text" name="lastname" id="lastname")
+				td
+					input(type="hidden" id="contacts" name="contacts[]")
+
+		
+    
+		input(id="submit" type="submit" value="Submit")
+
+		table(id="contactsTable" style="Width:100%")
+			tr
+				td
+					label E-mail:
+				td
+					input(id="newContactEmail" type="email")
+				td
+					label Nickname:
+				td
+					input(type="text" id="nickname")
+				td
+					input(type="button" id="addContact" value="Add contact")
+		
+		ul(id="contactList")
