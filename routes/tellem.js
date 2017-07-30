@@ -1,6 +1,6 @@
 /**
 * tellem.js
-* @author sidmishraw
+* @author Gaurav Gupta
 * @description tellem service layer
 * @created Sat Jul 29 2017 18:28:30 GMT-0700 (PDT)
 */
